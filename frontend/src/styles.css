@@ -1,0 +1,15 @@
+body { font-family: Arial, sans-serif; background:#f5f7fb; margin:0; }
+.container{ max-width:800px; margin:20px auto; padding:0 16px;}
+.navbar{ background:#fff; padding:12px 0; box-shadow:0 1px 4px rgba(0,0,0,0.08);}
+.navbar .container{ display:flex; justify-content:space-between; align-items:center;}
+.brand{ font-weight:700; font-size:1.1rem; }
+.card{ background:#fff; padding:16px; border-radius:8px; margin-bottom:12px; box-shadow:0 1px 3px rgba(0,0,0,0.04);}
+.btn{ padding:8px 12px; border:none; background:#1976d2; color:#fff; border-radius:6px; cursor:pointer;}
+.user-name{ margin-right:8px; }
+.auth-page{ display:flex; justify-content:center; margin-top:40px;}
+.auth-page input{ display:block; margin:8px 0; padding:8px; width:100%;}
+.link-btn{ background:none; border:none; color:#1976d2; cursor:pointer; padding:0; margin-left:6px;}
+.muted{ color:#666; font-size:0.85rem;}
+.post-form textarea{ width:100%; min-height:80px; padding:8px;}
+.row{ display:flex; gap:8px; align-items:center; margin-top:8px;}
+.post-card img{ margin-top:8px; border-radius:6px;}
