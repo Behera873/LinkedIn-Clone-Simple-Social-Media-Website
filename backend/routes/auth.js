@@ -24,6 +24,7 @@ router.post("/register", async (req, res) => {
       password: hashedPassword,
     });
 
+    // 3. Save to database (This is where the DB connection error will be caught)
     await newUser.save();
     res.status(201).json({ message: "User registered successfully" });
   } catch (error) {

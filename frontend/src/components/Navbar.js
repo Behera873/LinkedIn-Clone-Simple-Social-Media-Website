@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 export default function Navbar({ user, onLogout }) {
   return (
-    <nav style={{ padding: 12, borderBottom: '1px solid #ddd', display: 'flex', justifyContent: 'space-between' }}>
+    <nav style={{ padding: 12, borderBottom: '1px solid #0a74cbff', display: 'flex', justifyContent: 'space-between' }}>
       <div><Link to="/">Linkedin Clone</Link></div>
       <div>
         {user ? (

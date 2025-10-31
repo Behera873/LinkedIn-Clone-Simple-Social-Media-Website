@@ -10,7 +10,9 @@ app.use(cors());
 app.use(express.json());
 
 // routes
+// AUTH: Assuming auth.js is directly inside the 'routes' folder: backend/routes/auth.js
 const authRoutes = require('./routes/auth');
+// POSTS: Assuming posts.js is directly inside the 'routes' folder: backend/routes/posts.js
 const postsRoutes = require('./routes/posts');
 
 app.use('/api/auth', authRoutes);
